@@ -4,11 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="115d2a8d-0cbb-4087-8dca-fbdf552f2959" name="Changes" comment="рабочие вопросы и заказ верхней кнопки" />
+    <list default="true" id="115d2a8d-0cbb-4087-8dca-fbdf552f2959" name="Changes" comment="вопросы кликаются 1 раз" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
@@ -46,7 +52,7 @@
     "onboarding.tips.debug.path": "/Users/Yulia/IdeaProjects/Sprint4/src/main/java/org/example/Main.java"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.TestQuestions">
+  <component name="RunManager" selected="JUnit.TestOrder">
     <configuration name="TestOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bibikov_Sprint_4" />
       <extension name="coverage">
@@ -149,8 +155,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestQuestions" />
         <item itemvalue="JUnit.TestOrder" />
+        <item itemvalue="JUnit.TestQuestions" />
         <item itemvalue="JUnit.TestQuestionsDropdown" />
         <item itemvalue="JUnit.TestQuestionsDropdown.testCheckAllQuestions (1)" />
         <item itemvalue="JUnit.TestQuestionsDropdown.testCheckAllQuestions" />
@@ -190,13 +196,22 @@
       <option name="project" value="LOCAL" />
       <updated>1698599302523</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="вопросы кликаются 1 раз">
+      <option name="closed" value="true" />
+      <created>1698599400071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698599400071</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Пробный пуш" />
     <MESSAGE value="рабочие вопросы и заказ верхней кнопки" />
-    <option name="LAST_COMMIT_MESSAGE" value="рабочие вопросы и заказ верхней кнопки" />
+    <MESSAGE value="вопросы кликаются 1 раз" />
+    <option name="LAST_COMMIT_MESSAGE" value="вопросы кликаются 1 раз" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
