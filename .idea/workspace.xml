@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="115d2a8d-0cbb-4087-8dca-fbdf552f2959" name="Changes" comment="Пробный пуш">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="115d2a8d-0cbb-4087-8dca-fbdf552f2959" name="Changes" comment="рабочие вопросы и заказ верхней кнопки" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -176,12 +174,21 @@
       <option name="project" value="LOCAL" />
       <updated>1698598293555</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="рабочие вопросы и заказ верхней кнопки">
+      <option name="closed" value="true" />
+      <created>1698598620587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698598620587</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Пробный пуш" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пробный пуш" />
+    <MESSAGE value="рабочие вопросы и заказ верхней кнопки" />
+    <option name="LAST_COMMIT_MESSAGE" value="рабочие вопросы и заказ верхней кнопки" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
