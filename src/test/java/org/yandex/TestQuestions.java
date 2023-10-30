@@ -3,68 +3,63 @@ package org.yandex;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
+import org.junit.runner.RunWith;
+import org.junit.runners.Parameterized;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pageobject.HomePage;
 
-import static Locators.Locators.*;
+import java.util.Arrays;
+import java.util.Collection;
+
+import static locators.Locators.*;
 import static org.junit.Assert.assertTrue;
-
+@RunWith(Parameterized.class)
 public class TestQuestions {
     private WebDriver driver;
+    private String questionLocator;
+    private String answerLocator;
+
+    public TestQuestions(String questionLocator, String answerLocator) {
+        this.questionLocator = questionLocator;
+        this.answerLocator = answerLocator;
+    }
 
     @Before
     public void setUp() {
         driver = new ChromeDriver();
         driver.get("https://qa-scooter.praktikum-services.ru/");
-    }
 
+    }
+    @After
+    public void tearDown() {
+        driver.quit();
+    }
+@Parameterized.Parameters
+public static Collection<Object[]> data() {
+    return Arrays.asList(new Object[][] {
+            { FIRST_QUESTION, FIRST_QUESTION_TEXT },
+            { SECOND_QUESTION, SECOND_QUESTION_TEXT },
+            { QUESTION3, QUESTION_TEXT3 },
+            { QUESTION4, QUESTION_TEXT4 },
+            { QUESTION5, QUESTION_TEXT5 },
+            { QUESTION6, QUESTION_TEXT6 },
+            { QUESTION7, QUESTION_TEXT7 }
+    });
+}
     @Test
     public void testCheckAllQuestions() {
 
-        String[][] questionAndAnswers = {
-                {FIRST_QUESTION, FIRST_QUESTION_TEXT},
-                {SECOND_QUESTION, SECOND_QUESTION_TEXT},
-                {QUESTION3, QUESTION_TEXT3},
-                {QUESTION4, QUESTION_TEXT4},
-                {QUESTION5, QUESTION_TEXT5},
-                {QUESTION6, QUESTION_TEXT6},
-                {QUESTION7, QUESTION_TEXT7}
-        };
+        HomePage homePage = new HomePage(driver);
+        homePage
+                .scroll()
+        .clickQuestion(questionLocator);
+        assertTrue(homePage.isAnswerDisplayed(answerLocator));
 
-        for (String[] qa : questionAndAnswers) {
-            String questionLocator = qa[0];
-            String answerLocator = qa[1];
-/*
-            waitUntilPageLoaded();
-
- */
-
-            ((JavascriptExecutor) driver).executeScript("window.scrollTo(0, document.body.scrollHeight);");
-
-            WebElement questionElement = driver.findElement(By.xpath(questionLocator));
-            questionElement.click();
-
-            WebElement answerElement = driver.findElement(By.xpath(answerLocator));
-
-            assertTrue(answerElement.isDisplayed());
-
-
-        }
     }
 
-    @After
-    public void tearDown() {
-        if (driver != null) {
-            driver.quit();
-        }
-    }
 
-   /* private void waitUntilPageLoaded() {
-        //код ожидания загрузки страницы
-    }
 
-    */
+
+
 }
