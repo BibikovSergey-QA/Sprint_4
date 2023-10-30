@@ -68,16 +68,8 @@ public class TestOrderHead {
                 .finishOrderForm()
                 .checkSuccessMessage();
     }
-    @Test
-    public void orderBottom() {
-        homePage
-                .scroll()
-                .clickOrderButtonBottom();
-        /*
-        orderPage
 
-         */
-    }
+
     @After
     public void tearDown() {
         driver.quit();
