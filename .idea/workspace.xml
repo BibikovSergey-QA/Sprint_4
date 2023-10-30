@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="115d2a8d-0cbb-4087-8dca-fbdf552f2959" name="Changes" comment="вопросы кликаются 1 раз" />
+    <list default="true" id="115d2a8d-0cbb-4087-8dca-fbdf552f2959" name="Changes" comment="два теста на заказ">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +30,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BibikovSergey-QA"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e9778cbb-fe51-4e08-a3df-aa6a4de598bf" />
+        <option name="url" value="git@github.com:BibikovSergey-QA/Sprint_4.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -64,6 +80,22 @@
       <option name="PACKAGE_NAME" value="org.yandex" />
       <option name="MAIN_CLASS_NAME" value="org.yandex.TestOrder" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrder.OrderHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bibikov_Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yandex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yandex" />
+      <option name="MAIN_CLASS_NAME" value="org.yandex.TestOrder" />
+      <option name="METHOD_NAME" value="OrderHead" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -114,16 +146,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestQuestionsDropdown.testCheckAllQuestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bibikov_Sprint_4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestQuestionsDropdown" />
-      <option name="METHOD_NAME" value="testCheckAllQuestions" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestQuestionsDropdown.testCheckQuestion" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="Bibikov_Sprint_4" />
       <extension name="coverage">
@@ -156,10 +178,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TestOrder" />
+        <item itemvalue="JUnit.TestOrder.OrderHead" />
         <item itemvalue="JUnit.TestQuestions" />
         <item itemvalue="JUnit.TestQuestionsDropdown" />
         <item itemvalue="JUnit.TestQuestionsDropdown.testCheckAllQuestions (1)" />
-        <item itemvalue="JUnit.TestQuestionsDropdown.testCheckAllQuestions" />
       </list>
     </recent_temporary>
   </component>
@@ -204,14 +226,23 @@
       <option name="project" value="LOCAL" />
       <updated>1698599400071</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="два теста на заказ">
+      <option name="closed" value="true" />
+      <created>1698599894052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698599894052</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Пробный пуш" />
     <MESSAGE value="рабочие вопросы и заказ верхней кнопки" />
     <MESSAGE value="вопросы кликаются 1 раз" />
-    <option name="LAST_COMMIT_MESSAGE" value="вопросы кликаются 1 раз" />
+    <MESSAGE value="два теста на заказ" />
+    <option name="LAST_COMMIT_MESSAGE" value="два теста на заказ" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
