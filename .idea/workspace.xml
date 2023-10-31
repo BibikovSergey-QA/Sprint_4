@@ -4,13 +4,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="115d2a8d-0cbb-4087-8dca-fbdf552f2959" name="Changes" comment="Пробный пуш">
+    <list default="true" id="115d2a8d-0cbb-4087-8dca-fbdf552f2959" name="Changes" comment="все поправил">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/yandex/TestOrderBottom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/yandex/TestOrderHead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/org/yandex/TestOrder.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/pageobject/OrderPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pageobject/OrderPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="module" />
+    </option>
   </component>
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
@@ -23,7 +33,27 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PUSH_TAGS">
+      <GitPushTagMode>
+        <option name="argument" value="--tags" />
+        <option name="title" value="All" />
+      </GitPushTagMode>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BibikovSergey-QA&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="e9778cbb-fe51-4e08-a3df-aa6a4de598bf" />
+        <option name="url" value="git@github.com:BibikovSergey-QA/Sprint_4.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -37,19 +67,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "develop",
-    "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "C:/Users/Datanomica/IdeaProjects/Sprint4",
-    "onboarding.tips.debug.path": "/Users/Yulia/IdeaProjects/Sprint4/src/main/java/org/example/Main.java"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Datanomica/IdeaProjects/Sprint4&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;/Users/Yulia/IdeaProjects/Sprint4/src/main/java/org/example/Main.java&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TestQuestions">
-    <configuration name="TestOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+}</component>
+  <component name="RunManager" selected="JUnit.TestOrderBottom.orderBottom">
+    <configuration name="TestOrderBottom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bibikov_Sprint_4" />
       <extension name="coverage">
         <pattern>
@@ -58,13 +88,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.yandex" />
-      <option name="MAIN_CLASS_NAME" value="org.yandex.TestOrder" />
+      <option name="MAIN_CLASS_NAME" value="org.yandex.TestOrderBottom" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestQuestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestOrderBottom.orderBottom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bibikov_Sprint_4" />
       <extension name="coverage">
         <pattern>
@@ -73,48 +103,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="org.yandex" />
-      <option name="MAIN_CLASS_NAME" value="org.yandex.TestQuestions" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestQuestionsDropdown" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bibikov_Sprint_4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ChromeTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ChromeTests" />
-      <option name="MAIN_CLASS_NAME" value="ChromeTests.TestQuestionsDropdown" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestQuestionsDropdown.testCheckAllQuestions (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Bibikov_Sprint_4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ChromeTests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ChromeTests" />
-      <option name="MAIN_CLASS_NAME" value="ChromeTests.TestQuestionsDropdown" />
-      <option name="METHOD_NAME" value="testCheckAllQuestions" />
+      <option name="MAIN_CLASS_NAME" value="org.yandex.TestOrderBottom" />
+      <option name="METHOD_NAME" value="orderBottom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestQuestionsDropdown.testCheckAllQuestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestOrderHead" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bibikov_Sprint_4" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestQuestionsDropdown" />
-      <option name="METHOD_NAME" value="testCheckAllQuestions" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yandex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yandex" />
+      <option name="MAIN_CLASS_NAME" value="org.yandex.TestOrderHead" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestOrderHead.orderBottom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Bibikov_Sprint_4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yandex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yandex" />
+      <option name="MAIN_CLASS_NAME" value="org.yandex.TestOrderHead" />
+      <option name="METHOD_NAME" value="orderBottom" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -136,26 +157,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
+    <configuration name="TestQuestions.testCheckAllQuestions" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Bibikov_Sprint_4" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="Bibikov_Sprint_4" />
-      <option name="filePath" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.yandex.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.yandex" />
+      <option name="MAIN_CLASS_NAME" value="org.yandex.TestQuestions" />
+      <option name="METHOD_NAME" value="testCheckAllQuestions" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.TestQuestions" />
-        <item itemvalue="JUnit.TestOrder" />
-        <item itemvalue="JUnit.TestQuestionsDropdown" />
-        <item itemvalue="JUnit.TestQuestionsDropdown.testCheckAllQuestions (1)" />
-        <item itemvalue="JUnit.TestQuestionsDropdown.testCheckAllQuestions" />
+        <item itemvalue="JUnit.TestOrderBottom.orderBottom" />
+        <item itemvalue="JUnit.TestOrderBottom" />
+        <item itemvalue="JUnit.TestOrderHead" />
+        <item itemvalue="JUnit.TestQuestions.testCheckAllQuestions" />
+        <item itemvalue="JUnit.TestOrderHead.orderBottom" />
       </list>
     </recent_temporary>
   </component>
@@ -176,12 +200,65 @@
       <option name="project" value="LOCAL" />
       <updated>1698598293555</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="рабочие вопросы и заказ верхней кнопки">
+      <option name="closed" value="true" />
+      <created>1698598620587</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1698598620587</updated>
+    </task>
+    <task id="LOCAL-00003" summary="рабочие вопросы и заказ верхней кнопки">
+      <option name="closed" value="true" />
+      <created>1698599302523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698599302523</updated>
+    </task>
+    <task id="LOCAL-00004" summary="вопросы кликаются 1 раз">
+      <option name="closed" value="true" />
+      <created>1698599400071</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1698599400071</updated>
+    </task>
+    <task id="LOCAL-00005" summary="два теста на заказ">
+      <option name="closed" value="true" />
+      <created>1698599894052</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1698599894052</updated>
+    </task>
+    <task id="LOCAL-00006" summary="все работает">
+      <option name="closed" value="true" />
+      <created>1698656610432</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1698656610432</updated>
+    </task>
+    <task id="LOCAL-00007" summary="все поправил">
+      <option name="closed" value="true" />
+      <created>1698667719460</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1698667719460</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Пробный пуш" />
-    <option name="LAST_COMMIT_MESSAGE" value="Пробный пуш" />
+    <MESSAGE value="рабочие вопросы и заказ верхней кнопки" />
+    <MESSAGE value="вопросы кликаются 1 раз" />
+    <MESSAGE value="два теста на заказ" />
+    <MESSAGE value="все работает" />
+    <MESSAGE value="все поправил" />
+    <option name="LAST_COMMIT_MESSAGE" value="все поправил" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
